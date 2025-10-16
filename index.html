@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafetería Alexia</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Encabezado -->
+  <header class="bg-brown text-white text-center py-4" style="background:#6f4e37;">
+    <h1 class="fw-bold">Cafetería Omar</h1>
+    <p class="mb-0">El mejor café de la ciudad</p>
+  </header>
+
+  <!-- Contenedor principal -->
+  <main class="container my-5">
+
+    <!-- Menú -->
+    <section>
+      <h2 class="text-center mb-3">Nuestro Menú</h2>
+      <p class="text-muted text-center">Bebidas y panes del día</p>
+
+      <div class="row g-4">
+        <!-- Producto 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="https://www.marketresearchintellect.com/images/blogs/sipping-success-exploring-the-dynamics-of-the-espresso-coffee-market.webp"
+              class="card-img-top" alt="Espresso servido en taza">
+            <div class="card-body">
+              <h5 class="card-title">Espresso</h5>
+              <p class="card-text">Extracción precisa, tueste medio <span
+                  class="badge bg-warning text-dark">Nuevo</span></p>
+              <table class="table table-sm">
+                <thead class="table-light">
+                  <tr>
+                    <th>Tamaño</th>
+                    <th>Precio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Simple</td>
+                    <td>$35</td>
+                  </tr>
+                  <tr>
+                    <td>Doble</td>
+                    <td>$45</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button class="btn btn-outline-primary w-100">Comprar</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://picsum.photos/seed/latte/480/320" class="card-img-top" alt="Latte">
+            <div class="card-body">
+              <h5 class="card-title">Latte</h5>
+              <p class="card-text">Suave, con leche vaporizada</p>
+              <table class="table table-sm">
+                <thead class="table-light">
+                  <tr>
+                    <th>Tamaño</th>
+                    <th>Precio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>12 oz</td>
+                    <td>$55</td>
+                  </tr>
+                  <tr>
+                    <td>16 oz</td>
+                    <td>$65</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button class="btn btn-outline-primary w-100">Comprar</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://picsum.photos/seed/croissant/480/320" class="card-img-top" alt="Croissant">
+            <div class="card-body">
+              <h5 class="card-title">Croissant</h5>
+              <p class="card-text">Hojaldre crujiente</p>
+              <table class="table table-sm">
+                <thead class="table-light">
+                  <tr>
+                    <th>Variante</th>
+                    <th>Precio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Clásico</td>
+                    <td>$38</td>
+                  </tr>
+                  <tr>
+                    <td>Chocolate</td>
+                    <td>$45</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button class="btn btn-outline-primary w-100">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="horarios" class="horarios">
+      <table class="table table-sm">
+        <tr class="table-light">
+          <td>Lunes a viernes</td>
+          <td>7:00 am - 9:00 p.m.</td>
+        </tr>
+        <tr>
+          <td>Sabdo</td>
+          <td>8:00 am - 10:00 p.m.</td>
+        </tr>
+        <tr class="table-light">
+          <td>Domingo</td>
+          <td>8:00 am - 8:00 p.m.</td>
+        </tr>
+      </table>
+      <p class="frase">¡Simepre hay tiempo para un buen cafe!</p>
+    </section>
+
+
+    <section id="acerca" class="acerca-de" aria-labelledby="titulo-acerca">
+      <h2>Acerca de nosotros</h2>
+      <div class="contenido-acerca">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxNpcAlHLjlUMCt3SUrtPply3cgtF5NbEVow&s"
+          alt="Taza de expresso">
+        <div class="texto">
+          <p>En Cafeteria Saul, nos apasiona el café de calidad y la experiencia única que ofrecemos a nuestros
+            clientes. Desde 2020, hemos estado sirviendo bebidas artesanales y productos frescos en un ambiente
+            acogedor.
+          </p>
+          <p>Nuestro equipo de baristas expertos se dedica a preparar cada taza con precisión y cuidado, utilizando
+            granos seleccionados de las mejores regiones cafetaleras. Además, nos enorgullece apoyar a productores
+            locales y prácticas sostenibles.</p>
+          <p>Ya sea que busques un lugar para trabajar, reunirte con amigos o simplemente disfrutar de un buen café,
+            Cafeteria Saul es tu destino ideal. ¡Te esperamos!</p>
+        </div>
+
+        <p>
+          <strong>Mision:</strong> Servir experiencia, no solo cafe
+        </p>
+      </div>
+    </section>
+
+    <section id="mapa" class="mapa">
+      <h2>Encuentranos Aqui</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13948.038199483215!2d-110.98053932189943!3d29.075862772036036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce8561332e96e9%3A0x2568d794e734db0b!2sCaf%C3%A9%20Central!5e0!3m2!1ses-419!2smx!4v1759772445361!5m2!1ses-419!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p class="direccion">
+        Calle Cafe aroma #123, Hermosillo sonora
+        <br>Tel. (662) 409-0000
+      </p>
+    </section>
+
+    <!-- Carrusel de imagen-->
+    <section id="Carrusel" class="carrusel">
+      <h2>Galeria de nuestra cafeteria</h2>
+      <div class="slides">
+        <input type="radio" name="nav" id="slide1" checked>
+        <input type="radio" name="nav" id="slide2">
+        <div class="imagenes">
+          <img src="data:image/jpeg;base64,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" alt="Cafe latte espumoso">
+          <img src="data:image/jpeg;base64,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" alt="Capuccimo artesanal">
+        </div>
+        <!--Flecha de navegacion-->
+        <div class="navegacion">
+          <label for="slide1" class="btn">&#10094;</label> <!--Flecha izq-->
+          <label for="slide2" class="btn">&#10095;</label> <!--Flecha derecha-->
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="video" class="video">
+      <h2>Nuestro café en acción</h2>
+      <!-- Video de YouTube (incrustado) -->
+      <div class="contenedor-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MYPVQccHhAQ?si=CbbFlRQX0A1LNjKG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        
+      </div>
+    </section>
+
+    <!-- Sección de música -->
+<section id="musica" class="musica">
+    <h2>Música para acompañar tu café</h2>
+    <audio controls loop>
+        <source src="music/cafe.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <p>Relájate con nuestras melodías suaves mientras disfrutas tu bebida favorita.</p>
+</section>
+
+<!-- Sección de música automática -->
+<section id="musica-auto" class="musica">
+    <audio autoplay loop muted>
+        <source src="music/cafe-relax.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+</section>
+
+
+
+
+
+    <!-- Artículos -->
+    <section class="mt-5">
+      <h2 class="text-center mb-3">Artículos del blog</h2>
+      <div class="row g-4">
+        <div class="col-md-8">
+          <article class="mb-4">
+            <h5>¿Qué es un espresso perfecto?</h5>
+            <p class="text-muted"><time datetime="2025-08-26">Agosto de 2025</time> • 3 min de lectura</p>
+            <p>Un espresso perfecto equilibra aroma, cuerpo y acidez...</p>
+            <a href="#leer-mas-espresso" class="btn btn-sm btn-link">Leer más</a>
+          </article>
+          <article>
+            <h5>De la finca a tu taza</h5>
+            <p class="text-muted"><time datetime="2025-08-26">Agosto de 2025</time> • 4 min de lectura</p>
+            <p>El viaje del café inicia con la selección de granos...</p>
+            <a href="#leer-mas-finca" class="btn btn-sm btn-link">Leer más</a>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <aside class="p-3 border rounded bg-light">
+            <h6>Horarios y ubicación</h6>
+            <address>
+              Blvd. Universidad 76, Hermosillo, Sonora <br>
+              Lun-Sáb: 8:00-20:00 • Dom: 9:00-14:00
+            </address>
+            <p class="text-muted">Wi-fi gratis • Pet friendly • Terraza</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="mt-5">
+      <h2 class="text-center mb-3">Galería</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <figure class="card">
+            <img src="https://picsum.photos/seed/barista/480/320" class="card-img-top" alt="Barista preparando café">
+            <figcaption class="card-body text-center">Barista en acción</figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure class="card">
+            <img src="https://picsum.photos/seed/terrace/480/320" class="card-img-top" alt="Terraza del café">
+            <figcaption class="card-body text-center">Nuestra terraza</figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure class="card">
+            <img src="https://picsum.photos/seed/beans/480/320" class="card-img-top" alt="Granos de café tostados">
+            <figcaption class="card-body text-center">Granos seleccionados</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="mt-5">
+      <h2 class="text-center mb-3">Contacto</h2>
+      <form class="p-4 border rounded bg-light mx-auto" style="max-width:600px;">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" id="nombre" class="form-control" placeholder="Tu nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo</label>
+          <input type="email" id="correo" class="form-control" placeholder="tucorreo@ejemplo.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea id="mensaje" class="form-control" rows="4" placeholder="¿En qué podemos ayudarte?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+        <p class="text-muted mt-2 small">Ejemplo educativo: este formulario no envía datos reales.</p>
+      </form>
+    </section>
+  </main>
+
+<!-- Footer con opción de llamada -->
+<footer class="footer">
+    <p>Desde 1997 Café Aurora | Hermosillo, Sonora</p>
+
+    <!-- Botón de llamada -->
+    <a href="tel:+526624090800" class="btn-footer">
+        Llamar al (662) 409 0800
+    </a>
+
+    <!-- Correo de contacto -->
+    <a href="mailto:cafecontacto@gmail.com" class="correo-footer">
+        cafecontacto@gmail.com
+    </a>
+</footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
